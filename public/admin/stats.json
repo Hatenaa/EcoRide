@@ -1,0 +1,127 @@
+{
+    "2025-04-01": {
+        "rides_created": 34,
+        "rides_completed": 34,
+        "rides_viewed": 68
+    },
+    "2025-04-02": {
+        "rides_created": 28,
+        "rides_completed": 28,
+        "rides_viewed": 56
+    },
+    "2025-04-03": {
+        "rides_created": 42,
+        "rides_completed": 42,
+        "rides_viewed": 84
+    },
+    "2025-04-04": {
+        "rides_created": 37,
+        "rides_completed": 37,
+        "rides_viewed": 74
+    },
+    "2025-04-05": {
+        "rides_created": 49,
+        "rides_completed": 49,
+        "rides_viewed": 98
+    },
+    "2025-04-06": {
+        "rides_created": 53,
+        "rides_completed": 53,
+        "rides_viewed": 106
+    },
+    "2025-04-07": {
+        "rides_created": 61,
+        "rides_completed": 61,
+        "rides_viewed": 122
+    },
+    "2025-04-08": {
+        "rides_created": 55,
+        "rides_completed": 55,
+        "rides_viewed": 110
+    },
+    "2025-04-09": {
+        "rides_created": 45,
+        "rides_completed": 45,
+        "rides_viewed": 90
+    },
+    "2025-04-10": {
+        "rides_created": 32,
+        "rides_completed": 32,
+        "rides_viewed": 64
+    },
+    "2025-04-11": {
+        "rides_created": 41,
+        "rides_completed": 41,
+        "rides_viewed": 82
+    },
+    "2025-04-12": {
+        "rides_created": 46,
+        "rides_completed": 46,
+        "rides_viewed": 92
+    },
+    "2025-04-13": {
+        "rides_created": 39,
+        "rides_completed": 39,
+        "rides_viewed": 78
+    },
+    "2025-04-14": {
+        "rides_created": 30,
+        "rides_completed": 30,
+        "rides_viewed": 60
+    },
+    "2025-04-15": {
+        "rides_created": 36,
+        "rides_completed": 35,
+        "rides_viewed": 72
+    },
+    "2025-04-16": {
+        "rides_created": 48,
+        "rides_completed": 47,
+        "rides_viewed": 96
+    },
+    "2025-04-17": {
+        "rides_created": 50,
+        "rides_completed": 50,
+        "rides_viewed": 100
+    },
+    "2025-04-18": {
+        "rides_created": 44,
+        "rides_completed": 43,
+        "rides_viewed": 88
+    },
+    "2025-04-19": {
+        "rides_created": 38,
+        "rides_completed": 38,
+        "rides_viewed": 76
+    },
+    "2025-04-20": {
+        "rides_created": 20,
+        "rides_completed": 19,
+        "rides_viewed": 0
+    },
+    "2025-04-22": {
+        "rides_created": 1,
+        "rides_completed": 0,
+        "rides_viewed": 0
+    },
+    "2025-04-30": {
+        "rides_created": 1,
+        "rides_completed": 0,
+        "rides_viewed": 0
+    },
+    "2025-05-05": {
+        "rides_created": 6,
+        "rides_completed": 0,
+        "rides_viewed": 0
+    },
+    "2025-05-15": {
+        "rides_created": 1,
+        "rides_completed": 0,
+        "rides_viewed": 0
+    },
+    "2025-05-17": {
+        "rides_created": 1,
+        "rides_completed": 0,
+        "rides_viewed": 0
+    }
+}

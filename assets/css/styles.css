@@ -1,0 +1,33 @@
+.img-home {
+    border-radius: 50%;
+    max-width: 80%;
+    padding-top: 30px;
+}
+
+.landing-sections {
+    max-width: 80%; 
+    border-radius: 30px;
+    position: relative;
+}
+
+.navbar-custom {
+    position: absolute;
+    top: 85%;
+    left: 14%;
+    width: 70%;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+    border-radius: 7px;
+}
+
+.bg--img {
+    width: 260px; 
+    height: 180px; 
+    border-radius: 10px; 
+    top: 20px; 
+    right: 20px;
+}
+
+/**
+* Search Page (Le style de la page de recherche)
+*/
+
