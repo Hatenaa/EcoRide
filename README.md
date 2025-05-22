@@ -28,8 +28,7 @@ Le projet a été réalisé dans le cadre du **TP Développeur Web & Web Mobile
 6. Comptes de démonstration
 7. Workflow Git (Git Flow simplifié)
 8. Roadmap & Améliorations
-9. Liens utiles
-10. License
+9. License
 
 ---
 
