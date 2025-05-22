@@ -20,15 +20,16 @@ Le projet a été réalisé dans le cadre du **TP Développeur Web & Web Mobile
 ---
 
 ## Sommaire
-1. [Stack technique]
-2. [Fonctionnalités livrées]
-3. [Arborescence du projet]
-4. [Installation / déploiement en local]
-5. [Configuration de la base de données]
-6. [Comptes de démonstration]
-7. [Workflow Git (Git Flow simplifié)]
-8. [Roadmap & Améliorations]
-9. [Liens utiles]
+1. Stack technique
+2. Fonctionnalités livrées
+3. Arborescence du projet
+4. Installation / déploiement en local
+5. Configuration de la base de données
+6. Comptes de démonstration
+7. Workflow Git (Git Flow simplifié)
+8. Roadmap & Améliorations
+9. Liens utiles
+10. License
 
 ---
 
@@ -145,3 +146,147 @@ Voici quelques comptes prêts à l'emploi pour tester l'application :
 | Chauffeur      | [doz.riles@gmail.com](mailto:doz.riles@gmail.com) | a8w6WaUyZA4u66     |
 | Employé        | [lucie.moreau@example.com](mailto:lucie.moreau@example.com)   | luciepass123      |
 | Administrateur | [admin@example.com](mailto:admin@example.com)   | adminpassword       |
+
+---
+
+## Workflow Git (Git Flow simplifié)
+
+Le projet suit également une organisation Git structurée pour assurer une bonne lisibilité et évolutivité du code.
+
+### Branches principales
+
+- `main` → Contient **uniquement le code stable en production**.
+- `develop` → Contient le **code en cours de développement** testé et fonctionnel.
+
+### Branches secondaires
+
+- Chaque **nouvelle fonctionnalité** doit être développée sur une branche dédiée :
+
+```bash
+git checkout develop
+git checkout -b feature/nom-fonctionnalite
+```
+Exemple :
+```
+git checkout -b feature/ajout-covoiturage
+```
+Les branches de fonctionnalités sont toujours créées à partir de develop.
+### Processus de fusion
+
+#### 1. Développement de la fonctionnalité sur feature/...
+#### 2. Test local
+#### 3. Merge dans develop une fois validée :
+
+```
+git checkout develop
+git merge feature/ajout-covoiturage
+```
+#### 4. Une fois dev jugée stable (fin de sprint, milestone atteinte…), merge vers main :
+```
+git checkout main
+git merge develop
+```
+### Nettoyage
+Après chaque merge, il est conseillé de supprimer la branche de feature :
+```
+git branch -d feature/ajout-covoiturage
+```
+---
+
+## Roadmap & Améliorations
+
+Bien que le projet **EcoRide** soit livré sous forme de MVP fonctionnel, plusieurs évolutions pourraient considérablement enrichir la plateforme, tant sur le plan fonctionnel, marketing que technique :
+
+### 1. Intégration d’un module de paiement (Checkout)
+
+Pour permettre la réservation de trajets payants, l’ajout d’une page de paiement sécurisée serait une étape logique. Elle pourrait inclure :
+
+- Paiement par carte bancaire via une API comme Stripe ou PayPal
+- Répartition automatique des revenus entre le conducteur et la plateforme
+- Affichage d’un récapitulatif clair du trajet avant validation
+- Possibilité d’ajouter une assurance voyage ou des options supplémentaires (bagage XXL, prise en charge à domicile…)
+
+Cela permettrait aussi d’introduire des techniques d’up-selling (options premium, trajets flexibles…) et de cross-selling (abonnements, accessoires écologiques…).
+
+---
+
+### 2. Création d’un blog orienté écologie et mobilité durable
+
+La mise en place d’un blog intégré à la plateforme aurait un double intérêt :
+
+- Renforcer la stratégie SEO (référencement naturel) avec du contenu régulier :
+  - Les avantages du covoiturage
+  - Les éco-gestes en voyage
+  - Les retours d’expérience des utilisateurs
+- Attirer des backlinks depuis d'autres sites/blogs spécialisés pour améliorer la visibilité
+
+Cette stratégie éditoriale pourrait attirer un public engagé et renforcer la crédibilité du projet.
+
+---
+
+### 3. Autres pistes d'amélioration à moyen terme
+
+- Système de notes et avis plus poussé entre passagers et conducteurs
+- Notifications par e-mail ou SMS lors de la réservation ou annulation
+- Filtres de recherche plus fins (confort, musique, préférence animaux…)
+- Intégration d’un calendrier personnel
+- Création d’un profil public partageable
+
+---
+
+## Enjeux SEO et visibilité long terme
+
+### Structuration du contenu : approche en silo
+
+Pour maximiser l’impact SEO, un blog bien structuré est recommandé. Le contenu doit être organisé par silos :
+
+- Pages mères : Covoiturage, Mobilité verte, Réduction des émissions
+- Pages filles : Covoiturage urbain, Comparatif auto vs train…
+- Articles longue traîne :  
+  “Pourquoi le covoiturage est idéal pour les trajets domicile-travail”  
+  “Éthanol E85 : économie ou arnaque ?”
+
+Cette architecture renforce la cohérence sémantique, ce que Google valorise fortement.
+
+---
+
+### Objectif SEO : Améliorer le E-A-T (Expertise – Authority – Trust)
+
+- Expertise : contenu qualitatif, structuré et sourcé
+- Autorité : présence éditoriale + backlinks crédibles
+- Fiabilité : mentions légales, politique de confidentialité, UX professionnelle
+
+---
+
+### Maillage interne & transmission du PageRank
+
+- Liens logiques entre articles et sections
+- Navigation fluide pour l’utilisateur
+- Les pages importantes (ex : réservation) gagnent du “poids SEO”
+
+---
+
+### URLs lisibles et hiérarchiques
+
+Exemples recommandés :
+```
+/blog/mobilite-verte/comparatif-voiture-train
+/blog/covoiturage/avantages-court-trajet
+```
+
+Ces URLs sont :
+
+- Compréhensibles pour l’utilisateur
+- Optimisées pour les moteurs de recherche
+- Faciles à exploiter dans les outils comme Google Search Console
+
+---
+
+Ces évolutions ne sont pas encore en place, mais elles sont clairement identifiées et cohérentes avec les objectifs du projet. Leur intégration future permettrait de faire évoluer **EcoRide** d’un projet pédagogique vers un produit crédible et compétitif sur le marché.
+
+---
+## Licence
+
+Ce projet est un travail académique réalisé dans le cadre du titre professionnel DWWMA (Studi).  
+**Toute réutilisation, copie ou diffusion du code est strictement interdite.**
+
