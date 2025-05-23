@@ -3,7 +3,7 @@
 try {
 
     global $db;
-    $db = new PDO('mysql:host=localhost;dbname=ecoride', 'username', 'password');
+    $db = new PDO('mysql:host=localhost;dbname=ecoride', 'root', 'root');
     $db->exec('SET NAMES "UTF8"');
 
 } catch (PDOException $e){
