@@ -61,7 +61,7 @@ Le projet a été réalisé dans le cadre du **TP Développeur Web & Web Mobile
 - **US 12** : Espace employé (validation d’avis) – *proto écran*
 - **US 13** : Espace admin (stats, suspension) – *proto écran*
 
-> Des captures d’écran des trois variantes d’interface (A/B test) sont
+> Des captures d’écran des trois variantes d’interface (A/B test) seront bientôt
 > disponibles dans `docs/screenshots/`.
 
 ---
