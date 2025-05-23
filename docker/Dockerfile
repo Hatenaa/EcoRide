@@ -7,6 +7,6 @@ RUN docker-php-ext-install pdo pdo_mysql
 COPY . /var/www/html/
 
 # Travailler depuis le dossier racine de l'app
-WORKDIR /var/www/html/
+WORKDIR /var/www/html/public
 
 EXPOSE 80
